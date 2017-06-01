@@ -75,9 +75,21 @@ h1 {
   background-size: cover;
   box-shadow: 0 3px 4px 0 rgba(0,0,0,.60);
 }
+
+.image-cards {
+  display: flex;
+  background-color: black;
+}
+.image-cards li {
+  justify-content: space-between;
+}
+
+
 .site-imgs ul {
-  margin-bottom: 24px;
   text-align: center;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  border: solid black 1px;
 }
 #left-img {
   background-image: url(../img/left-img.jpg);
